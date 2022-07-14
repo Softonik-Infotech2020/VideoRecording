@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bg_card_gradient_2"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txt_plan_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plan name"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/txt_plan_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="₹00"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/txt_discount_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discount : ₹00"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="₹00"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/txt_validity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Validity : 0day"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+           <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get subscription and enjoy musical video maker app."
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>-->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
